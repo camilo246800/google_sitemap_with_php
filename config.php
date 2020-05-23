@@ -1,23 +1,22 @@
 <?php
 /**
- * Change the configuration below and rename this file to config.php
+ * Archivo de configuración.
  */
 
 /*
- * The directory to check.
- * Make sure the DIR ends ups in the Sitemap Dir URL below, otherwise the links to files will be broken!
+ * Directorio y detalles adicionales.
  */
 
-// With trailing slash!
+// Directorio del sitemap.
 define( 'SITEMAP_DIR_URL', 'https://roicaster.com/sitemap/' );
 
 
-// The XSL file used for styling the sitemap output, make sure this path is relative to the root of the site.
+// Nombre del archivo XSL.
 $xsl = 'xml-sitemap.xsl';
 
-// Frecuencia
+// Frecuencia (ver referencia en sitemap.org)
 $freq = 'daily';
 
-// Prioridad
+// Prioridad (ver referencia en sitemap.org)
 $prio = 1;
 
