@@ -8,7 +8,7 @@
  */
 
 // Directorio del sitemap.
-define( 'SITEMAP_DIR_URL', 'https://roicaster.com/sitemap/' );
+define( 'SITEMAP_DIR_URL', 'https://example.com/' );
 
 
 // Nombre del archivo XSL.
